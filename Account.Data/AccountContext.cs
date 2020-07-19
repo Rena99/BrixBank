@@ -1,7 +1,6 @@
 ﻿using Account.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Configuration;
 
 namespace Account.Data
 {
@@ -17,13 +16,6 @@ namespace Account.Data
         }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Entities.Account> Accounts { get; set; }
-        //protected override void OnConfiguring(DbContextOptionsBuilder options)
-        //{
-        //    if (!options.IsConfigured)
-        //    {
-        //        options.UseSqlServer("Server=.\\sqlexpress; Database= AccountDB; Trusted_Connection = True;");
-        //    }
-        //}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customer>().HasIndex(x => new { x.Email }).IsUnique();

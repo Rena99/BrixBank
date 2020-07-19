@@ -3,7 +3,6 @@ using Account.Services.Interfaces;
 using Account.Services.Models;
 using AutoMapper;
 using System;
-using System.Threading.Tasks;
 
 namespace Account.Data.Repositories
 {
@@ -34,7 +33,7 @@ namespace Account.Data.Repositories
                 _context.SaveChanges();
                 return true;
             }
-            catch(Exception e)
+            catch
             {
                 return false;
             }
