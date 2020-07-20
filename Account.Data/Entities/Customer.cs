@@ -1,6 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07f54aec5ab86da45cd5e641854dc2215ec497f4
 
 namespace Account.Data.Entities
 {

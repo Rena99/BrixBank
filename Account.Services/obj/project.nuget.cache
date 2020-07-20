@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "bAemg25dDh+Jw++BvLyjHwI/VuBBFALXIEajhsWlrvCU2cioSNI+9HKfP3o/2Cb9okjCD99X7KJRYGaHWZ/Z/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\RLemberger\\Documents\\Brix\\BrixBank\\BrixBank\\BrixBank\\Account.Services\\Account.Services.csproj",
@@ -97,6 +98,18 @@
     "C:\\Users\\RLemberger\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\RLemberger\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\RLemberger\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+=======
+  "dgSpecHash": "Lz8ziI8pGvxzolX6I4tQzyKw9BYes3pvYBW+yfRmtCbLboee70R712NwYZQec3gUUdLw5I3yI+tulEhXF47Z9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rina lerner\\Documents\\Brix\\BrixBank\\Account.Services\\Account.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rina lerner\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\rina lerner\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\rina lerner\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.1\\swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
+    "C:\\Users\\rina lerner\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+    "C:\\Users\\rina lerner\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.1\\swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
+    "C:\\Users\\rina lerner\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512"
+>>>>>>> 07f54aec5ab86da45cd5e641854dc2215ec497f4
   ],
   "logs": []
 }

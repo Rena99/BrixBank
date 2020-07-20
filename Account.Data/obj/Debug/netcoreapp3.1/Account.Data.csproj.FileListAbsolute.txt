@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.deps.json
 C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.dll
 C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csprojAssemblyReference.cache
@@ -13,3 +14,17 @@ C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\D
 C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Services.pdb
 C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csproj.CopyComplete
 C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csproj.CoreCompileInputs.cache
+=======
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.deps.json
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.dll
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csprojAssemblyReference.cache
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.AssemblyInfoInputs.cache
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.AssemblyInfo.cs
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.pdb
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.dll
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.pdb
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Services.dll
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Services.pdb
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csproj.CopyComplete
+C:\Users\rina lerner\Documents\Brix\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csproj.CoreCompileInputs.cache
+>>>>>>> 07f54aec5ab86da45cd5e641854dc2215ec497f4
