@@ -26,14 +26,20 @@ namespace Account.Data.Repositories
         public string ChackUserLogin(string email, string password)
         {
            Entities.Account account = new Entities.Account();
-
-            foreach (var item in _context.Customer)
+            try
             {
-                if (item.Email == email && AreEqual(password, item.Password, item.Salt))
+                foreach (var item in _context.Customer)
                 {
-                    var CurrentAccount = _context.Accounts.FirstOrDefault(c => c.CustomerId == item.CustomerId);
-                    return CurrentAccount.AccountId.ToString();
+                    if (item.Email == email && AreEqual(password, item.Password, item.Salt))
+                    {
+                        var CurrentAccount = _context.Accounts.FirstOrDefault(c => c.CustomerId == item.CustomerId);
+                        return CurrentAccount.AccountId.ToString();
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                return (e.Message);
             }
             return null;
         }

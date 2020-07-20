@@ -15,7 +15,7 @@ namespace Account.Services.Services
             this.accountInfoReposetory = accountInfoReposetory;
         }
      
-        public Guid GetAccount(Guid CustomerId)
+        public AccountModel GetAccount(Guid CustomerId)
         {
             return accountInfoReposetory.GetAccount(CustomerId);
         }

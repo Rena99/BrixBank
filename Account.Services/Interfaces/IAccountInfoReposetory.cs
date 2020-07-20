@@ -5,6 +5,6 @@ namespace Account.Services.Interfaces
 {
    public interface IAccountInfoReposetory
     {
-        public Guid GetAccount(Guid CustomerId);
+        public AccountModel GetAccount(Guid CustomerId);
     }
 }

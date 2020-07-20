@@ -3,6 +3,7 @@
 using Account.Services.Interfaces;
 using Account.Services.Models;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 
@@ -17,11 +18,11 @@ namespace Account.Data.Repositories
             this.mapper = mapper;
             this.context = context;
         }
-        public Guid GetAccount(Guid CustomerId)
+        public AccountModel GetAccount(Guid CustomerId)
         {
-            var UserAccuont = context.Accounts.FirstOrDefault(a => a.Customer.CustomerId == CustomerId);
+            var UserAccuont = context.Accounts.Include(c=>c.Customer).FirstOrDefault(a => a.Customer.CustomerId == CustomerId);
             AccountModel UserModel = mapper.Map<AccountModel>(UserAccuont);
-            return UserModel.CustomerId;
+            return UserModel;
         }
 
    

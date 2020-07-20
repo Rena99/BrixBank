@@ -1,10 +1,11 @@
 ﻿
+using Account.Services.Models;
 using System;
 
 namespace Account.Services.Interfaces
 {
   public interface IAccountInfoServies
     {
-        public Guid GetAccount(Guid CustomerId);
+        public AccountModel GetAccount(Guid CustomerId);
     }
 }

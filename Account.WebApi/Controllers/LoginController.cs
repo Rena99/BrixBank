@@ -1,5 +1,6 @@
 ﻿
 using Account.Services.Interfaces;
+using Account.WebApi.DTO;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -35,12 +36,12 @@ namespace Account.WebApi.Controllers
 
         [HttpGet]
         [Route("{action}")]
-        public IActionResult GetAccount([FromQuery] Guid CustomerId)
+        public IActionResult GetAccount([FromQuery] string CustomerId)
         {
-            if (accountInfoServies.GetAccount(CustomerId) == null)
+            if (accountInfoServies.GetAccount(new Guid(CustomerId)) == null)
                 return Unauthorized();
-            var a = accountInfoServies.GetAccount(CustomerId);
-            return Ok(a);
+            var a = accountInfoServies.GetAccount(new Guid(CustomerId));
+            return Ok(mapper.Map<AccountDTO>(a));
         }
     }
 }
