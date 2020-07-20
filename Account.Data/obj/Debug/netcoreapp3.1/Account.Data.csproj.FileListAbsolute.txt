@@ -1,0 +1,15 @@
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.deps.json
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.dll
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csprojAssemblyReference.cache
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.AssemblyInfoInputs.cache
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.AssemblyInfo.cs
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.runtimeconfig.json
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.runtimeconfig.dev.json
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Data.pdb
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.dll
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.pdb
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.genruntimeconfig.cache
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Services.dll
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\bin\Debug\netcoreapp3.1\Account.Services.pdb
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csproj.CopyComplete
+C:\Users\RLemberger\Documents\Brix\BrixBank\BrixBank\BrixBank\Account.Data\obj\Debug\netcoreapp3.1\Account.Data.csproj.CoreCompileInputs.cache

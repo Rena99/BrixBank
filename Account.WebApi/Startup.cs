@@ -1,15 +1,15 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Account.Data;
+using Account.Data.Repositories;
+using Account.Services.Interfaces;
+using Account.Services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using AutoMapper;
 
 namespace Account.WebApi
 {
@@ -26,6 +26,14 @@ namespace Account.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<AccountContext>
+            (options => options.UseSqlServer(Configuration.GetConnectionString("AccountContext")));
+            services.AddScoped<ILoginServies, LoginServies>();
+            services.AddScoped<ILoginRepository, LoginRepository>();
+            services.AddScoped<IAccountInfoServies, AccountInfoServies>();
+            services.AddScoped<IAccountInfoReposetory, AccountInfoReposetory>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,10 +50,23 @@ namespace Account.WebApi
 
             app.UseAuthorization();
 
+            app.UseCors(x => x
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+
+
+      
+
+          
+
+
         }
     }
 }
