@@ -26,7 +26,7 @@
 <<<<<<< HEAD
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
 =======
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
 >>>>>>> 07f54aec5ab86da45cd5e641854dc2215ec497f4
   </ItemGroup>
